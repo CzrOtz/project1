@@ -1,0 +1,182 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.infoBtn {
+    list-style-type: none; 
+    font-size: 18px; 
+    padding: 10px; 
+    margin: 5px 0 5px 20px; 
+    background-color: #f0f0f0; 
+    border: 1px solid #ccc; 
+    border-radius: 5px; 
+    display: inline-block; 
+}
+
+header, .ui-header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 1em;
+    text-align: center;
+}
+
+nav, .ui-navbar {
+    background-color: #333;
+}
+
+nav ul, .ui-navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav ul li, .ui-navbar ul li {
+    float: left;
+}
+
+nav ul li a, .ui-navbar ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav ul li a:hover, .ui-navbar ul li a:hover {
+    background-color: #111;
+}
+
+.container, .ui-content {
+    padding: 20px;
+}
+
+h1, h2 {
+    text-align: center;
+    color: #333;
+}
+
+div[data-role="fieldcontain"], section {
+    margin: 20px;
+}
+
+label {
+    display: block;
+    margin: 10px 0 5px;
+    font-weight: bold;
+}
+
+select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+p {
+    text-align: center;
+    font-size: 18px;
+}
+
+span {
+    font-weight: bold;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 12px;
+    text-align: center;
+}
+
+.false {
+    background-color: #f2f2f2;
+}
+
+.true {
+    background-color: #d4edda;
+}
+
+.highlight {
+    background-color: #ffffcc;
+    padding: 10px;
+    margin: 20px 0;
+}
+
+footer, .ui-footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Additional styles for jQuery Mobile compatibility */
+.ui-content {
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.ui-slider-track {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.ui-slider-handle {
+    background-color: #007bff !important;
+    border-color: #007bff !important;
+}
+
+.ui-slider-bg {
+    background-color: #f2f2f2 !important;
+}
+
+.ui-btn {
+    background-color: #007bff !important;
+    color: white !important;
+    border: none !important;
+    border-radius: 5px !important;
+    padding: 10px;
+}
+
+.ui-btn:hover {
+    background-color: #0056b3 !important;
+}
+
+.ui-footer {
+    background-color: #333 !important;
+    color: white !important;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}

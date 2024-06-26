@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Info Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Binary Operators and Gates</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Interactive Interface</a></li>
+        </ul>
+    </nav>
+
+    <main class="container">
+        <section>
+            <h2>Binary Operators</h2>
+            <p>Binary operators are used to perform operations on two operands. These operators are the fundamental building blocks of the logic behind the computer. These are the most basic operators:</p>
+            <ul>
+                <li><mark>AND</mark> (<em>&amp;&amp;</em>): Returns true if both inputs are true.</li>
+                <li><mark>OR</mark> (<em>||</em>): Returns true if at least one input is true.</li>
+                <li><mark>XOR</mark> (<em>^</em>): Returns true if only one input is true.</li>
+                <li><mark>NOT</mark> (<em>!</em>): Unary operator that returns the inverse of the input.</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>AND Gate</h2>
+            <p>The <mark>AND</mark> operator returns <em>true</em> if both inputs are true ONLY. If any input is something other than true, the operand returns false.</p>
+            <table>
+                <tr>
+                    <th>A</th>
+                    <th>B</th>
+                    <th>A <em>&amp;&amp;</em> B</th>
+                </tr>
+                <tr>
+                    <td class="false">0</td>
+                    <td class="false">0</td>
+                    <td class="false">0</td>
+                </tr>
+                <tr>
+                    <td class="false">0</td>
+                    <td class="true">1</td>
+                    <td class="false">0</td>
+                </tr>
+                <tr>
+                    <td class="true">1</td>
+                    <td class="false">0</td>
+                    <td class="false">0</td>
+                </tr>
+                <tr>
+                    <td class="true">1</td>
+                    <td class="true">1</td>
+                    <td class="true">1</td>
+                </tr>
+            </table>
+        </section>
+
+        <section>
+            <h2>OR Gate</h2>
+            <p>The <mark>OR</mark> operator returns <em>true</em> if AT LEAST one of the inputs is true. Note, pay attention to how it still returns true if both inputs are true.</p>
+            <table>
+                <tr>
+                    <th>A</th>
+                    <th>B</th>
+                    <th>A <em>||</em> B</th>
+                </tr>
+                <tr>
+                    <td class="false">0</td>
+                    <td class="false">0</td>
+                    <td class="false">0</td>
+                </tr>
+                <tr>
+                    <td class="false">0</td>
+                    <td class="true">1</td>
+                    <td class="true">1</td>
+                </tr>
+                <tr>
+                    <td class="true">1</td>
+                    <td class="false">0</td>
+                    <td class="true">1</td>
+                </tr>
+                <tr>
+                    <td class="true">1</td>
+                    <td class="true">1</td>
+                    <td class="true">1</td>
+                </tr>
+            </table>
+        </section>
+
+        <section>
+            <h2>NOT Gate</h2>
+            <p>The <mark>NOT</mark> operator returns the inverse or opposite of the input. It is a unary operator, meaning it only operates on one input, not two.</p>
+            <table>
+                <tr>
+                    <th>A</th>
+                    <th>!A</th>
+                </tr>
+                <tr>
+                    <td class="false">0</td>
+                    <td class="true">1</td>
+                </tr>
+                <tr>
+                    <td class="true">1</td>
+                    <td class="false">0</td>
+                </tr>
+            </table>
+        </section>
+
+        <section>
+            <h2>XOR Gate</h2>
+            <p>The <mark>XOR</mark> operator returns <em>true</em> if ONLY one of the inputs is true. The big difference between the XOR gate and the OR gate is the fact that where the OR gate returns true if both inputs are true, the XOR gate will return FALSE</p>
+            <table>
+                <tr>
+                    <th>A</th>
+                    <th>B</th>
+                    <th>A <em>^</em> B</th>
+                </tr>
+                <tr>
+                    <td class="false">0</td>
+                    <td class="false">0</td>
+                    <td class="false">0</td>
+                </tr>
+                <tr>
+                    <td class="false">0</td>
+                    <td class="true">1</td>
+                    <td class="true">1</td>
+                </tr>
+                <tr>
+                    <td class="true">1</td>
+                    <td class="false">0</td>
+                    <td class="true">1</td>
+                </tr>
+                <tr>
+                    <td class="true">1</td>
+                    <td class="true">1</td>
+                    <td class="false">0</td>
+                </tr>
+            </table>
+        </section>
+
+        <section>
+            <h2>Summary</h2>
+            <ol>
+                <li>The <mark>AND</mark> operator returns TRUE if BOTH operands are TRUE.</li>
+                <li>The <mark>OR</mark> operator returns TRUE if at least ONE operand is TRUE.</li>
+                <li>The <mark>NOT</mark> operator returns the INVERSE/OPPOSITE of the operand.</li>
+                <li>The <mark>XOR</mark> operator returns TRUE if only ONE operand is TRUE.</li>
+            </ol>
+            <div class="highlight">
+                <p><strong>Note:</strong> Binary operators are a fundamental part of programming and computer science as a whole. These operators are regularly used in applications and programs used by billions around the world every day.</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Info Page. All rights reserved.</p>
+    </footer>
+</body>
+</html>
